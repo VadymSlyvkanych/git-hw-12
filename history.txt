@@ -1,16 +1,21 @@
-  284  nano .gitignore\n
-  285  git add README.md .gitignore
-  286  git commit -m "Update README and gitignore"
-  287  git push -u origin feature\n
-  288  git branch\n
-  289  git log --oneline --decorate -5\n
-  290  git remote -v\n
-  291  git push origin feature\n
-  292  git push -u origin feature\n
-  293  git push -u origin feature\n
-  294  git config --global credential.helper store\n
-  295  git commit --amend -m "Update README and gitignore ammend"\n
-  296  git push --force\n
-  297  git checkout main
-  298  git merge feature
-  299  git push
+285  git clone https://github.com/VadymSlyvkanych/git-hw-12.git
+286  cd git-hw-12
+287  git checkout -b feature
+288  nano README.md
+289  nano .gitignore
+290  git add README.md .gitignore
+291  git commit -m "Update README and gitignore"
+292  git push -u origin feature
+293  git branch
+294  git log --oneline --decorate -5
+295  git remote -v
+296  git push origin feature
+297  git config --global credential.helper store
+298  git commit --amend -m "Update README and gitignore ammend"
+299  git push --force
+300  git checkout main
+301  git merge feature
+302  git push
+303  history -a
+304  history > history.txt
+305  echo "history > history.txt" >> history.txt
